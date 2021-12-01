@@ -36,13 +36,13 @@
     <div class="form-group">
     <table class="form-group">
         <label for="nome">Nome</label>
-        <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required>
+        <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required><br>
         <label for="Email">Email</label>
-        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required><br>
         <label for="login">Login</label>
-        <input type="text" min="1" step="any" class="form-control" name="login" id="login" placeholder="Login" required>
+        <input type="text" min="1" step="any" class="form-control" name="login" id="login" placeholder="Login" required><br>
         <label for="Senha">Senha</label>
-        <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha" required>
+        <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha" required><br>
     </table>
     </div>
     <input type="submit" class= "btn btn-success" name="gravar" value="Gravar">
